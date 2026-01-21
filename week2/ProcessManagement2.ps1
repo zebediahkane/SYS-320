@@ -1,0 +1,1 @@
+﻿Get-Process | Where-Object -Property Path -NotLike '*\system32\*' | Select-Object name, path, ID
