@@ -1,0 +1,100 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2\PowershellBasicDirectories.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2","PowershellBasicDirectories.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS-320\week2\PowershellBasicDirectories.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","PowershellBasicDirectories","System.Collections.Generic.List`1[System.String]",,"PowershellBasicDirectories.ps1","281","C:\Users\champuser\SYS-320\week2","C:\Users\champuser\SYS-320\week2","False","True","C:\Users\champuser\SYS-320\week2\PowershellBasicDirectories.ps1",".ps1","1/21/2026 2:04:38 PM","1/21/2026 7:04:38 PM","1/22/2026 10:10:46 AM","1/22/2026 3:10:46 PM","1/22/2026 10:10:46 AM","1/22/2026 3:10:46 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2\PowershellBasicDirectoriesPart2.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2","PowershellBasicDirectoriesPart2.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS-320\week2\PowershellBasicDirectoriesPart2.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","PowershellBasicDirectoriesPart2","System.Collections.Generic.List`1[System.String]",,"PowershellBasicDirectoriesPart2.ps1","220","C:\Users\champuser\SYS-320\week2","C:\Users\champuser\SYS-320\week2","False","True","C:\Users\champuser\SYS-320\week2\PowershellBasicDirectoriesPart2.ps1",".ps1","1/22/2026 10:11:10 AM","1/22/2026 3:11:10 PM","1/22/2026 10:22:54 AM","1/22/2026 3:22:54 PM","1/22/2026 10:22:54 AM","1/22/2026 3:22:54 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2\PowershellBasicNetworking.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2","PowershellBasicNetworking.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS-320\week2\PowershellBasicNetworking.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","PowershellBasicNetworking","System.Collections.Generic.List`1[System.String]",,"PowershellBasicNetworking.ps1","703","C:\Users\champuser\SYS-320\week2","C:\Users\champuser\SYS-320\week2","False","True","C:\Users\champuser\SYS-320\week2\PowershellBasicNetworking.ps1",".ps1","1/21/2026 1:39:38 PM","1/21/2026 6:39:38 PM","1/21/2026 2:04:20 PM","1/21/2026 7:04:20 PM","1/21/2026 2:04:20 PM","1/21/2026 7:04:20 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2\ProcessManagement1.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2","ProcessManagement1.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS-320\week2\ProcessManagement1.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ProcessManagement1","System.Collections.Generic.List`1[System.String]",,"ProcessManagement1.ps1","80","C:\Users\champuser\SYS-320\week2","C:\Users\champuser\SYS-320\week2","False","True","C:\Users\champuser\SYS-320\week2\ProcessManagement1.ps1",".ps1","1/21/2026 12:18:27 PM","1/21/2026 5:18:27 PM","1/21/2026 12:29:30 PM","1/21/2026 5:29:30 PM","1/21/2026 12:29:30 PM","1/21/2026 5:29:30 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2\ProcessManagement2.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2","ProcessManagement2.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS-320\week2\ProcessManagement2.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ProcessManagement2","System.Collections.Generic.List`1[System.String]",,"ProcessManagement2.ps1","99","C:\Users\champuser\SYS-320\week2","C:\Users\champuser\SYS-320\week2","False","True","C:\Users\champuser\SYS-320\week2\ProcessManagement2.ps1",".ps1","1/21/2026 12:29:59 PM","1/21/2026 5:29:59 PM","1/21/2026 12:38:43 PM","1/21/2026 5:38:43 PM","1/21/2026 12:38:43 PM","1/21/2026 5:38:43 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2\ProcessManagement3.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2","ProcessManagement3.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS-320\week2\ProcessManagement3.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ProcessManagement3","System.Collections.Generic.List`1[System.String]",,"ProcessManagement3.ps1","128","C:\Users\champuser\SYS-320\week2","C:\Users\champuser\SYS-320\week2","False","True","C:\Users\champuser\SYS-320\week2\ProcessManagement3.ps1",".ps1","1/21/2026 12:41:01 PM","1/21/2026 5:41:01 PM","1/21/2026 12:44:23 PM","1/21/2026 5:44:23 PM","1/21/2026 12:44:23 PM","1/21/2026 5:44:23 PM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2\ProcessManagement4.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS-320\week2","ProcessManagement4.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS-320\week2\ProcessManagement4.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ProcessManagement4","System.Collections.Generic.List`1[System.String]",,"ProcessManagement4.ps1","349","C:\Users\champuser\SYS-320\week2","C:\Users\champuser\SYS-320\week2","False","True","C:\Users\champuser\SYS-320\week2\ProcessManagement4.ps1",".ps1","1/21/2026 12:46:35 PM","1/21/2026 5:46:35 PM","1/21/2026 1:32:07 PM","1/21/2026 6:32:07 PM","1/21/2026 1:32:07 PM","1/21/2026 6:32:07 PM","Archive"
