@@ -1,4 +1,12 @@
-﻿. .\EventLogs1.ps1
+﻿. (Join-Path $PSScriptRoot .\EventLogs1.ps1)
 
-Get-Logs(14)
-Get-OnOffTimes(100)
+clear 
+
+$loginoutsTable = Get-Logs(15)
+$loginoutsTable
+
+$shutdownsTable = Get-OnOffTimes(25)
+$shutdownsTable
+
+$startupsTable = Get-OnOffTimes(25)
+$startupsTable

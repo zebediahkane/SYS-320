@@ -44,5 +44,5 @@ function Get-OnOffTimes($numOfDays) {
         }
     }
 
-    $onOffsTable
+    return $onOffsTable
 }
