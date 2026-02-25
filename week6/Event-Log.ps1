@@ -64,3 +64,17 @@ function getFailedLogins($timeBack){
 
     return $failedloginsTable
 } # End of function getFailedLogins
+
+function getAtRiskUsers() {
+ $names = (Get-LocalUser).Name
+        $atRiskUsers = @()
+
+        for ($i = 0; $i -lt $names.Length; $i++) {
+            $name = $names[$i]
+            $failedLogins = getFailedLogins(90) | Where-Object { $_.User -ilike "*$name"}
+            if ($failedLogins) {
+                $atRiskUsers += "$name - $($failedLogins.Count) failed logins"
+            }
+        }
+        return $atRiskUsers
+}

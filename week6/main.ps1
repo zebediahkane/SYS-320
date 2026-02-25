@@ -179,17 +179,8 @@ while($operation){
     }
 
     elseif($choice -eq 9){
-
-        $names = (Get-LocalUser).Name
-        $atRiskUsers = @()
-
-        for ($i = 0; $i -lt $names.Length; $i++) {
-            $name = $names[$i]
-            $failedLogins = getFailedLogins(90) | Where-Object { $_.User -ilike "*$name"}
-            if ($failedLogins) {
-                $atRiskUsers += "$name - $($failedLogins.Count) failed logins"
-            }
-        }
+        $atRiskUsers = getAtRiskUsers
+       
 
         if ($atRiskUsers.Length -gt 0) {
             return $atRiskUsers

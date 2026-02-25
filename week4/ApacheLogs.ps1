@@ -1,6 +1,10 @@
 ﻿# Q2
 #Get-Content C:\xampp\apache\logs\access.log | Select-String ' 200 ' | Select -last 5
 
+function getLastLogs($numOfLogs) {
+    return Get-Content C:\xampp\apache\logs\access.log | Select-String ' 200 ' | Select -last $numOfLogs
+}
+
 # Q3
 #Get-Content C:\xampp\apache\logs\access.log | Select-String -pattern "404|400" 
 

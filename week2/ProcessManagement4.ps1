@@ -1,4 +1,6 @@
-﻿$processes = Get-Process | Where-Object { $_.Name -like "*chrome*" }
+﻿
+function openChrome() {
+$processes = Get-Process | Where-Object { $_.Name -like "*chrome*" }
 
 if (!$processes) {
     # Starts web browser goes to champlain
@@ -11,4 +13,5 @@ if (!$processes) {
 # Stops chrome
 foreach ($process in $processes) {
     Stop-Process -Id $process.Id
+}
 }
