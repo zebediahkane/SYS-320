@@ -1,11 +1,21 @@
 #!/bin/bash
 
-myIP=$(bash myIP.bash)
+myIP=$(bash IPGetter.bash)
 
 
 # Todo-1: Create a helpmenu function that prints help for the script
 function HelpMenu() {
 	echo "help menu"
+	echo "---------------"
+	echo "-n: Add -n as an argument for this script to use nmap"
+	echo " -n external: External NMAP scan"
+	echo " -n internal: Internal NMAP scan"
+	echo "-s: add -s as an argument for this script to use ss"
+	echo " -s external: External ss(Netstat) scan"
+	echo " -s internal: Internal ss(Netstat) scan"
+	echo ""
+	echo "Usage: bash networkchecker.bash -n/-s external/internal"
+	echo "---------------"
 }
 
 # Return ports that are serving to the network
@@ -24,6 +34,8 @@ function ExternalListeningPorts(){
 
 # Todo-2: Complete the ExternalListeningPorts that will print the port and application
 # that is listening on that port from network (using ss utility)
+
+	elpo=$(ss -ltpn | awk -F"[[:space:]:(),]+" '/0.0.0.0/ {print $5,$9}' | tr -d "\"")
 
 }
 
@@ -44,4 +56,37 @@ ilpo=$(ss -ltpn | awk  -F"[[:space:]:(),]+" '/127.0.0./ {print $5,$9}' | tr -d "
 # For instance: -n internal => will call NMAP on localhost
 #               -s external => will call ss on network (non-local)
 
+if [[ $# -ne 2 ]]; then
+	HelpMenu
+	exit
+fi
 
+while getopts "n:s:" opt; do
+	case $opt in
+		n)
+			if [[ "$OPTARG" == "external" ]]; then
+				ExternalNmap
+				echo "$rex"
+			elif [[ "$OPTARG" == "internal" ]]; then
+				InternalNmap
+				echo "$rin"
+			else
+				HelpMenu
+			fi
+			;;
+		s)
+			if [[ "$OPTARG" == "external" ]]; then
+				ExternalListeningPorts
+				echo "$elpo"
+			elif [[ "$OPTARG" == "internal" ]]; then
+				InternalListeningPorts
+				echo "$ilpo"
+			else
+				HelpMenu
+			fi
+			;;
+		*)
+			HelpMenu
+			;;
+	esac
+done
